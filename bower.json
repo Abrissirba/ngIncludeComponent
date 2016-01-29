@@ -1,0 +1,33 @@
+{
+    "name": "ng-include-component",
+    "description": "A dynamic way to include directives/components in the same way as you do with ngInclude",
+    "main": [
+        "./dist/ngIncludeComponent.js"
+    ],
+    "dependencies": {
+        "angular": "^1.4"
+    },
+    "authors": [
+        "Marcus Abrahamsson <marcus.abrahamsson13@gmail.com>"
+    ],
+    "devDependencies": {
+        "angular-ui-router": "^0.2.15",
+        "angular-mocks": "^1.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/foo/bar.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "karma.conf.js",
+        "package.json",
+        "protractor.conf.js",
+        "gulp",
+        "e2e",
+        "dist-dev",
+        "gulpfile.js"
+    ]
+}

@@ -1,0 +1,14 @@
+
+
+<div class="container">
+    <select ng-model="main.selectedComponent">
+        <option value="componentA">Component A</option>
+        <option value="componentB">Component B</option>
+    </select>
+    
+    <ng-include-component name="main.selectedComponent" params="main.componentParams" scope="main"></ng-include-component>
+    
+    <div ng-repeat="widget in main.widgets">
+        <ng-include-component name="widget.type" params="widget.params" scope="widget"></ng-include-component>
+    </div>
+</div>
